@@ -1,0 +1,57 @@
+.body {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  color: $color-black126;
+}
+
+.bold, b, strong {
+  font-weight: bold;
+}
+
+.font_color {
+  &_black {
+    color: $color-black;
+  }
+}
+
+
+.font_size_17 {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 110%;
+  @media (max-width: 991.98px) {
+    font-size: 14px;
+  }
+}
+
+// .h1, h1 {
+//   font-weight: 500;
+//   font-size: 22px;
+//   line-height: 33px;
+//   text-align: left;
+// }
+
+// .h2, h2 {
+//   color: $color-black405;
+//   font-family: Kayak Sans;
+//   font-size: 44px;
+//   font-weight: bold;
+//   line-height: 57px;
+//   text-align: center;
+// }
+
+// .icon-star-full:before {
+//   content: "\e9d9";
+//   color: $color-orangd1a;
+//   font-size: medium;
+// }
+
+// .icon-star-half:before {
+//   content: "\e9d8";
+//   color: $color-orangd1a;
+//   font-size: medium;
+// }
+

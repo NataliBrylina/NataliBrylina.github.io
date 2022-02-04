@@ -1,0 +1,36 @@
+.btn {
+  font-style: normal;
+  text-align: center;
+  color: $color-white;
+  text-decoration: none;
+  display: inline-block;
+  background-color: $color-blue3FB;
+  border-radius: 15px;
+  padding: 20px 38px;
+  transition: all 0.2s;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  @media (max-width: 1195px) {
+    padding: 17px 28px;
+  }
+
+  @media (max-width: 991.98px) {
+    padding: 12px 25px;
+  }
+
+
+  &_white {
+    color: $color-blue3FB;
+    border: 1px solid $color-blue3FB;
+    background-color: $color-white;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+      background-color: rgba(73, 179, 251, 0.1);
+    }
+  
+  }
+}
